@@ -1,29 +1,29 @@
 num1 = int(input("enter the first number:"))
 num2 = int(input("enter the second number:")) 
-'''try:
+try:
     result=num1/num2
     print(resul)
 except (ZeroDivisionError,NameError):
-    print("error occurred")'''
+    print("error occurred")
 
 #  OR
 
-'''try:
+try:
     result=num1/num2
     print(resul)
 except (ZeroDivisionError):
     print("zero error occurred")
 
 except NameError:
-    print("name error occured")'''
+    print("name error occured")
 
 
 # Assign error message to variable "e" 
-'''try:
+try:
     result=num1/num2
     print(resul)
 except (ZeroDivisionError,NameError) as e:
-    print(e)'''
+    print(e)
 
 # when you don't know what error could occur
 
