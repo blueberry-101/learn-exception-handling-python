@@ -1,0 +1,28 @@
+Q. What is an exception and its harms?
+A. The occurance of unexpected event  or  error that occurs during the exceution of program is called excecption.
+
+Harms?
+Actully it disrupts the flow of program and the program may terminate abruptly which can currupt data and crash our system if not handled properly.
+
+
+Q. What is a raise keyword ?
+A. Raise keyword is used to forcefully throw exception based on particular condition.
+It is widely used in user-defined exceptions.
+
+Q. What is user-defined exceptions?
+A. As usual these are created by python programmers 
+actually,
+These are typically python classes which are inherited from
+base exception class i.e, Excecption.  and have specific error conditions or exceptional situations in their class.
+depending on where he wants to use that custom excecption class.
+
+Q. What is exception hierarchy?
+The excecption hierarchy is the organized way of handling excecption classes.
+
+This hierarchy typically consists of a base class or interface representing the most general type of exception, with more specific exception types derived from it.
+
+refer image ExcecptionHierarchy.png
+
+Q. write a basic program to handle an exception.
+
+Q. Explain a complex program where exception is very useful?
